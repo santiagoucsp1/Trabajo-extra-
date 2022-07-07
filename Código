@@ -1,0 +1,7 @@
+numero= int(input(" ingrese un numero para que se pueda ver la suma de los multiplos de 3 y 5: "))
+
+suma_multiplos = 0
+for numero in range(1, numero):
+  if numero % 3== 0 or numero %5 == 0:
+    suma_multiplos += numero 
+print(suma_multiplos)
